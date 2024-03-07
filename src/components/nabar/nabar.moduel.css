@@ -1,0 +1,8 @@
+.con{
+    height: 100px;
+    display: flex;
+    /* flex-direction: row; */
+    /* background-color: aqua; */
+    justify-content: space-between;
+    
+}
