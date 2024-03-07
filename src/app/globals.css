@@ -1,0 +1,13 @@
+
+
+body{
+    background-color: #28282b;
+
+    color: white;
+}
+a{
+color: white;
+text-decoration: none;
+cursor: pointer;
+margin-right: 100px;
+}
