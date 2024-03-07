@@ -1,0 +1,29 @@
+.container{
+    padding: 10px 30px;
+    border-radius: 20px;
+    /* background-color: aqua; */
+}
+
+.container:hover{
+    padding: 10px 30px;
+    border-radius:  0 0px;
+    background-color: none;
+    border-bottom: 2px solid white;
+    /* background-color: aqua; */
+}
+.active{
+
+    background-color: white;
+    color: black;
+    
+}
+
+
+.active:hover{
+
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    
+}

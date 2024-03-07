@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Links from "./links/links";
-import styles from './nabar.moduel.css'; 
+import styles from './nabar.module.css'; 
 const NavBar = () => {
   return( <div className={styles.con}>
-    <div>Logo</div>
+    <div className={styles.logo}>Logo</div>
     <div>
     <Links></Links>
     </div>

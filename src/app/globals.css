@@ -1,36 +1,69 @@
-:root{
-    --bg:#0d0c22;
-    --text:white;
-    --bgSoft:#2d2b42;
-    --textSoft:#e5e5e5;
-    --btn:#3673fd
+:root {
+    --bg: #0d0c22;
+    --text: white;
+    --bgSoft: #2d2b42;
+    --textSoft: #e5e5e5;
+    --btn: #3673fd
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: var(--bg);
 
     color: var(--text);
 }
-a{
-color: inherit;
-text-decoration: none;
-cursor: pointer;
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
 
 }
 
-.container{  
-    width: 1536px;
+.container {
+    width: 1200px;
     padding: 10px 20px;
-    background-color: blueviolet;
+    /* background-color : blueviolet; */
     margin: auto;
-    min-height:100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/* Media query for small screens */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+        /* Adjust width for smaller screens */
+    }
+}
+
+/* Media query for medium screens */
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .container {
+        width: 80%;
+        /* Adjust width for medium screens */
+    }
+}
+
+/* Media query for large screens */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 70%;
+        /* Adjust width for large screens */
+    }
+}
+
+/* Media query for extra-large screens */
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 60%;
+        /* Adjust width for extra-large screens */
+    }
+}
