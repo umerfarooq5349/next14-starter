@@ -1,8 +1,6 @@
 .container {
     display: flex;
     gap: 100px;
-
-
 }
 
 .textcontainer {
@@ -10,8 +8,6 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-
-
 }
 
 .aboutHeading {
@@ -26,13 +22,9 @@
 .textcontainer p {
     font-size: 16px;
     font-weight: normal;
-
 }
 
-
-
 .projects {
-
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -44,11 +36,13 @@
     color: var(--btn);
     border-radius: 5px;
     font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .projectBody {
-    /*padding: 10px 20px;
-    */
     border: none;
     font-size: 16px;
     color: var(--text);
@@ -57,7 +51,6 @@
 }
 
 .info {
-    /* background-color: red; */
     padding: 20px 10px;
 }
 

@@ -4,6 +4,9 @@ import styles from './contact.module.css';
 const AboutPage = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.imagecontainer}>
+        <Image src={'/contact.png'} alt='' fill className={styles.image} />
+      </div>
       <div className={styles.textcontainer}>
         <h3 className={styles.aboutHeading}>About Us</h3>
         <h1 >We create digital ideas that are bigger, bloder, braver and better.</h1>
@@ -29,9 +32,7 @@ const AboutPage = () => {
         </div>
 
       </div>
-      <div className={styles.imagecontainer}>
-        <Image src={'/about.png'} alt='' fill className={styles.image} />
-      </div>
+
     </div>
   );
 };
