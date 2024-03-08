@@ -3,55 +3,36 @@
     gap: 100px;
 }
 
-.textcontainer {
+.form {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.aboutHeading {
-    color: var(--btn);
-}
-
-.textcontainer h1 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.textcontainer p {
-    font-size: 16px;
-    font-weight: normal;
-}
-
-.projects {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-}
-
-.projectHeading {
-    font-size: 24px;
-    color: var(--btn);
-    border-radius: 5px;
-    font-weight: bold;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
-.projectBody {
-    border: none;
-    font-size: 16px;
-    color: var(--text);
-    border-radius: 5px;
-
-}
-
-.info {
+.inputField {
     padding: 20px 10px;
+    background-color: var(--bgSoft);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+.form button {
+    background-color: var(--btn);
+    color: white;
+    border: none;
+    padding: 14px 0px;
+
+    border-radius: 10px;
+}
+
+.form .inputField:nth-last-child(2) {
+    height: 150px;
+    padding: 20px 10px;
+
 }
 
 .imagecontainer {
