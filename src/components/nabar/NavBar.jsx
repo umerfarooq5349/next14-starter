@@ -3,7 +3,7 @@ import Links from "./links/links";
 import styles from './nabar.module.css'; 
 const NavBar = () => {
   return( <div className={styles.con}>
-    <div className={styles.logo}>Logo</div>
+    <Link href={'/'} className={styles.logo}>Logo</Link>
     <div>
     <Links></Links>
     </div>
