@@ -16,7 +16,7 @@ export const getPosts = async () => {
 export const getPost = async (slug) => {
   try {
     connectToDb();
-    const posts = await Post.find({ slug });
+    const posts = await Post.find({ slug: slug });
     return posts;
   } catch (e) {
     console.log(e);
@@ -27,10 +27,12 @@ export const getPost = async (slug) => {
 export const getuser = async (id) => {
   try {
     connectToDb();
-    const user = await User.findById(id);
+    const username = "umer";
+    console.log("console: " + username);
+    const user = await User.find({ username });
     return user;
   } catch (e) {
-    console.log(e);
+    console.log("console error: " + e);
     throw new Error(`Error fetching the user`);
   }
 };

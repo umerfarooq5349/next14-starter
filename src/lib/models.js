@@ -21,6 +21,11 @@ const userSchema = new Schema({
     unique: true,
     maxlength: 30,
   },
+  id: {
+    type: String,
+    required: true,
+    unique: true,
+  },
   userImage: {
     type: String,
   },

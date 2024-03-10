@@ -45,6 +45,11 @@
 
 }
 
+.authInfo {
+    display: flex;
+    flex-direction: row;
+}
+
 @media (max-width: 1280px) {
     .container {
         text-align: center;

@@ -22,7 +22,7 @@ const PostCard = (blogPost) => {
                 <p>{blogPost.description}</p>
 
                 <div className={styles.cardBottom}>
-                    <Link href={`blog/${[blogPost.id]}`} className={styles.link}>Read more</Link>
+                    <Link href={`blog/${[blogPost.slug]}`} className={styles.link}>Read more</Link>
                     <p>{blogPost.date}</p>
                 </div>
             </div>

@@ -18,7 +18,7 @@ const BlogPage = async () => {
 
   const blogPostCard = await getPosts();
 
-  console.log("console: " + blogPostCard.userId)
+  console.log("console: " + blogPostCard.timeStamps)
   return <div className={styles.container}>
     {blogPostCard.map((blogPostCard => (
       <PostCard className={styles.post}
@@ -26,7 +26,7 @@ const BlogPage = async () => {
         title={blogPostCard.postTitle}
         description={blogPostCard.postBody}
         // Make sure to use the correct field for date
-        date={blogPostCard.timeStamps.toString()}
+        date={blogPostCard.timeStamps.toString().slice(4, 16)}
 
         id={blogPostCard.userId}
         slug={blogPostCard.slug}
