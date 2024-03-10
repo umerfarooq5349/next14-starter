@@ -4,12 +4,14 @@ import styles from './postCard.module.css'
 import Link from 'next/link';
 
 const PostCard = (blogPost) => {
+
+
     return (<div className={styles.container}>
         <div className={styles.cardHeader}>
             <div className={styles.cardImage}>
                 <Image src={blogPost.img} alt={blogPost.title} fill />
             </div>
-            <p>{blogPost.date}</p>
+
         </div>
 
         <div className={styles.cardContent}>
@@ -18,9 +20,13 @@ const PostCard = (blogPost) => {
             </div>
             <div className={styles.cardDescription}>
                 <p>{blogPost.description}</p>
+
+                <div className={styles.cardBottom}>
+                    <Link href={`blog/${[blogPost.id]}`} className={styles.link}>Read more</Link>
+                    <p>{blogPost.date}</p>
+                </div>
             </div>
 
-            <Link href={`blog/${[`${blogPost.title}`]}`} className={styles.link}>Read more</Link>
         </div>
 
     </div>);

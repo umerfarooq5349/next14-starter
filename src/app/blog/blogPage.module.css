@@ -1,17 +1,19 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    /* Full width with some margin for better layout */
+
+    gap: 50px;
+
     width: calc(100vw - 50%);
-    margin: 0 auto;
+
+
 }
 
 .post {
     /* Responsive width based on screen size for 3 columns */
     width: calc(33.33% - 10px);
     /* Additional styling for posts */
-    margin-bottom: 10px;
+
 }
 
 /* Media Queries for additional adjustments */

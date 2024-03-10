@@ -23,7 +23,7 @@ const Links = () => {
   ];
   const [open, setOpen] = useState(false)
   const session = true;
-  const isAdmin = false;
+  const isAdmin = true;
 
 
   return (
