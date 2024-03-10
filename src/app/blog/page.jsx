@@ -11,36 +11,36 @@ const blogPostCard = [
   }, {
     img: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Moble on Laptop',
-    description: 'long description',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil voluptates possimus, suscipit cupiditate blanditiis aliquam voluptatibus iure accusantium quibusdam minus voluptas et natus ea quaerat quisquam, fuga impedit expedita!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam numquam facilis neque accusamus nulla! Autem saepe optio molestiae officia non cum necessitatibus id quidem modi aliquid ullam, fugit voluptate odit.',
     date: '6/2/2024',
   }
   , {
     img: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Mobe on Laptop',
-    description: 'long description',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil voluptates possimus, suscipit cupiditate blanditiis aliquam voluptatibus iure accusantium quibusdam minus voluptas et natus ea quaerat quisquam, fuga impedit expedita!',
     date: '6/2/2024',
   }
 
   , {
     img: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Mobile on Laptop',
-    description: 'long description',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil voluptates possimus, suscipit cupiditate blanditiis aliquam voluptatibus iure accusantium quibusdam minus voluptas et natus ea quaerat quisquam, fuga impedit expedita!',
     date: '6/2/2024',
   }
   , {
     img: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Mobile on Laptop',
-    description: 'long description',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil voluptates possimus, suscipit cupiditate blanditiis aliquam voluptatibus iure accusantium quibusdam minus voluptas et natus ea quaerat quisquam, fuga impedit expedita!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam numquam facilis neque accusamus nulla! Autem saepe optio molestiae officia non cum necessitatibus id quidem modi aliquid ullam, fugit voluptate odit.',
     date: '6/2/2024',
   }, {
     img: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Mobile on Laptop',
-    description: 'long description',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil voluptates possimus, suscipit cupiditate blanditiis aliquam voluptatibus iure accusantium quibusdam minus voluptas et natus ea quaerat quisquam, fuga impedit expedita!',
     date: '6/2/2024',
   }, {
     img: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Mobile on Laptop',
-    description: 'long description',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil voluptates possimus, suscipit cupiditate blanditiis aliquam voluptatibus iure accusantium quibusdam minus voluptas et natus ea quaerat quisquam, fuga impedit expedita!',
     date: '6/2/2024',
   }
 ]

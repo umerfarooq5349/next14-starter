@@ -1,11 +1,37 @@
 .container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    /* width: 768px; */
     gap: 10px;
+    /* Full width with some margin for better layout */
+    width: calc(100vw - 50%);
+    margin: 0 auto;
 }
 
 .post {
-    width: 20%;
+    /* Responsive width based on screen size for 3 columns */
+    width: calc(33.33% - 10px);
+    /* Additional styling for posts */
+    margin-bottom: 10px;
+}
+
+/* Media Queries for additional adjustments */
+@media (max-width: 1080px) {
+    .post {
+        /* Adjust width for 2 columns on smaller screens */
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .post {
+        /* Adjust width for 2 columns on smaller screens */
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .post {
+        /* Make posts full width on very small screens */
+        width: 100%;
+    }
 }

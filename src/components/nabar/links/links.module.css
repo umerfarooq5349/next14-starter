@@ -25,33 +25,36 @@
     }
 
     .mobileLinks {
-        position: absolute;
+        position: fixed;
+        z-index: 1;
         top: 100px;
         right: 0;
         width: 50%;
         height: calc(100vh - 100px);
-        background-color: var(--bg);
+        background-color: var(--bgBlur);
+        /* background-blend-mode: difference; */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 10px;
+        /* filter: blur(4px); */
 
+
+        backdrop-filter: blur(7px)
     }
 
     .menuButton {
         display: block;
         cursor: pointer;
+        position: relative;
         border: none;
-        font-size: 20px;
-        border-radius: 20px;
+
+        background-color: var(--bg);
         padding: 10px 20px;
         color: white;
-        background-color: var(--bgSoft);
+
         font-weight: normal;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
+
     }
 }

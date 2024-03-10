@@ -19,7 +19,8 @@ const PostCard = (blogPost) => {
             <div className={styles.cardDescription}>
                 <p>{blogPost.description}</p>
             </div>
-            <Link href={'blog/slug'} className={styles.link}>Read more</Link>
+
+            <Link href={`blog/${[`${blogPost.title}`]}`} className={styles.link}>Read more</Link>
         </div>
 
     </div>);
