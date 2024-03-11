@@ -21,7 +21,7 @@ const userSchema = new Schema({
     unique: true,
     maxlength: 30,
   },
-  id: {
+  uid: {
     type: String,
     required: true,
     unique: true,

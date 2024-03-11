@@ -27,7 +27,7 @@ export const getPost = async (slug) => {
 export const getuser = async (id) => {
   try {
     connectToDb();
-    const username = "umer";
+    const username = "abiir";
     console.log("console: " + username);
     const user = await User.find({ username });
     return user;
